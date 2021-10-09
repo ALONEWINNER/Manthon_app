@@ -1,0 +1,257 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.god.eye"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:6:5-66
+14-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:4:5-77
+15-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:4:22-74
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:5:5-84
+16-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:5:22-82
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:7:5-64
+17-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:7:22-62
+18    <uses-permission android:name="android.permission.FLASHLIGHT" />
+18-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:8:5-68
+18-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:8:22-66
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:9:5-70
+19-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:9:22-68
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+20-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+21-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->[:location] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+22-->[:location] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23-->[:location] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+23-->[:location] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+24    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e4186c293950d73169b2437483bf0308\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
+25-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e4186c293950d73169b2437483bf0308\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:22-76
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\d3490d9d81ebe2d7174eb29e4a32f867\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:5-68
+26-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\d3490d9d81ebe2d7174eb29e4a32f867\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:22-65
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2ecb962bf315e898c1283c07c9a726a7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2ecb962bf315e898c1283c07c9a726a7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2ecb962bf315e898c1283c07c9a726a7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+31
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
+33
+34    <application
+34-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:14:4-48:19
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.1.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\3c8fd1bfddb99a7a7e21faa1397acdb4\core-1.1.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:16:9-43
+38        android:label="godeye" >
+38-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:15:9-31
+39        <activity
+39-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:17:9-36:20
+40            android:name="com.god.eye.MainActivity"
+40-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:18:13-41
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+41-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:21:13-163
+42            android:hardwareAccelerated="true"
+42-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:22:13-47
+43            android:launchMode="singleTop"
+43-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:19:13-43
+44            android:theme="@style/LaunchTheme"
+44-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:20:13-47
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:23:13-55
+46
+47            <!--
+48                 Specifies an Android theme to apply to this Activity as soon as
+49                 the Android process has started. This theme is visible to the user
+50                 while the Flutter UI initializes. After that, this theme continues
+51                 to determine the Window background behind the Flutter UI.
+52            -->
+53            <meta-data
+53-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:28:13-31:17
+54                android:name="io.flutter.embedding.android.NormalTheme"
+54-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:29:15-70
+55                android:resource="@style/NormalTheme" />
+55-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:30:15-52
+56
+57            <intent-filter>
+57-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:32:13-35:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:33:17-68
+58-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:33:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:34:17-76
+60-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:34:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64             Don't delete the meta-data below.
+65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+66        -->
+67        <meta-data
+67-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:39:9-41:33
+68            android:name="flutterEmbedding"
+68-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:40:13-44
+69            android:value="2" />
+69-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:41:13-30
+70        <meta-data
+70-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:42:9-43:69
+71            android:name="com.google.android.geo.API_KEY"
+71-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:42:20-65
+72            android:value="AIzaSyBJkPY8uJ9qxn27rS1w9Wvvdjn6xD0gYEk" />
+72-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:43:12-67
+73        <meta-data
+73-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:44:9-46:33
+74            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+74-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:45:11-68
+75            android:value="ocr" />
+75-->C:\Users\yashv\dartsdk-windows-x64-release\godeye\android\app\src\main\AndroidManifest.xml:46:11-30
+76
+77        <provider
+77-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+78            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+78-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+79            android:authorities="com.god.eye.flutter.image_provider"
+79-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+80            android:exported="false"
+80-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+81            android:grantUriPermissions="true" >
+81-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+82            <meta-data
+82-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+84                android:resource="@xml/flutter_image_picker_file_paths" />
+84-->[:image_picker] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+85        </provider>
+86
+87        <service
+87-->[:cloud_firestore] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[:cloud_firestore] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e4186c293950d73169b2437483bf0308\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:19:13-37
+91            <meta-data
+91-->[:cloud_firestore] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+92-->[:cloud_firestore] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:cloud_firestore] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[:firebase_core] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+95-->[:firebase_core] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_core] C:\Users\yashv\dartsdk-windows-x64-release\godeye\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e4186c293950d73169b2437483bf0308\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
+98                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+98-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e4186c293950d73169b2437483bf0308\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e4186c293950d73169b2437483bf0308\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
+100            <meta-data
+100-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\d3490d9d81ebe2d7174eb29e4a32f867\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
+101                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+101-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\d3490d9d81ebe2d7174eb29e4a32f867\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\d3490d9d81ebe2d7174eb29e4a32f867\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+104                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+104-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2b663374f2a3beef67e4fc09532fc190\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+106        </service>
+107
+108        <provider
+108-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+109            android:name="com.google.firebase.provider.FirebaseInitProvider"
+109-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+110            android:authorities="com.god.eye.firebaseinitprovider"
+110-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+111            android:directBootAware="true"
+111-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+112            android:exported="false"
+112-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+113            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+113-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+114        <uses-library
+114-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2ecb962bf315e898c1283c07c9a726a7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+115            android:name="org.apache.http.legacy"
+115-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2ecb962bf315e898c1283c07c9a726a7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+116            android:required="false" />
+116-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\2ecb962bf315e898c1283c07c9a726a7\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\ae66d64a96039d4c8dca038f4348340f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\ae66d64a96039d4c8dca038f4348340f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\ae66d64a96039d4c8dca038f4348340f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\ae66d64a96039d4c8dca038f4348340f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+122
+123        <receiver
+123-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:29:9-33:20
+124            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+124-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:30:13-85
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:31:13-35
+126            android:exported="false" >
+126-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:32:13-37
+127        </receiver>
+128
+129        <service
+129-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:35:9-38:40
+130            android:name="com.google.android.gms.measurement.AppMeasurementService"
+130-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:36:13-84
+131            android:enabled="true"
+131-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:37:13-35
+132            android:exported="false" />
+132-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:38:13-37
+133        <service
+133-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:39:9-43:72
+134            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+134-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:40:13-87
+135            android:enabled="true"
+135-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:41:13-35
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:42:13-37
+137            android:permission="android.permission.BIND_JOB_SERVICE" />
+137-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\df3f69fd7600987b904c6335e6ca0b86\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:43:13-69
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\yashv\.gradle\caches\transforms-2\files-2.1\e31537fb3ca3accaea0d4d9ddb9631cc\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+142    </application>
+143
+144</manifest>

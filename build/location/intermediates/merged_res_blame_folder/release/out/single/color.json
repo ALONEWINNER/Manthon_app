@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\yashv\\dartsdk-windows-x64-release\\godeye\\build\\location\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\yashv\\.gradle\\caches\\transforms-2\\files-2.1\\87c8accbb445d9d3472088edb0d808d3\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\yashv\\dartsdk-windows-x64-release\\godeye\\build\\location\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\yashv\\.gradle\\caches\\transforms-2\\files-2.1\\87c8accbb445d9d3472088edb0d808d3\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\yashv\\dartsdk-windows-x64-release\\godeye\\build\\location\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\yashv\\.gradle\\caches\\transforms-2\\files-2.1\\87c8accbb445d9d3472088edb0d808d3\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+    }
+]

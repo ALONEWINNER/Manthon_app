@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "552764345248",
+    "project_id": "godeye-685c6",
+    "storage_bucket": "godeye-685c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552764345248:android:cc39e884bed4b80bed72c5",
+        "android_client_info": {
+          "package_name": "com.god.eye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552764345248-g65kqcbqcqhil6nbk5doooicoeq19cj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.god.eye",
+            "certificate_hash": "c9e4d357d240b5307b1411120321acd494a13ea6"
+          }
+        },
+        {
+          "client_id": "552764345248-c8kji1ok15b8mpvr36o00c89n4bmefo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJkPY8uJ9qxn27rS1w9Wvvdjn6xD0gYEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552764345248-c8kji1ok15b8mpvr36o00c89n4bmefo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">552764345248-c8kji1ok15b8mpvr36o00c89n4bmefo2.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">552764345248</string>
+    <string name="google_api_key" translatable="false">AIzaSyBJkPY8uJ9qxn27rS1w9Wvvdjn6xD0gYEk</string>
+    <string name="google_app_id" translatable="false">1:552764345248:android:cc39e884bed4b80bed72c5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBJkPY8uJ9qxn27rS1w9Wvvdjn6xD0gYEk</string>
+    <string name="google_storage_bucket" translatable="false">godeye-685c6.appspot.com</string>
+    <string name="project_id" translatable="false">godeye-685c6</string>
+</resources>
