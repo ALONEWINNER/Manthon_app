@@ -9,7 +9,7 @@ A new Flutter project.
 
 ## Projects Components (Manthan 2021) Prepare
 
-components or module:
+components and reource:
 ```
 Google maps Clustering
 Text recognition (ML Model)
