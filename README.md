@@ -4,7 +4,18 @@
 
 A new Flutter project.
 
-## Getting Started
+# Getting Started
+
+## Projects Components (Manthan 2021) Prepare
+
+components or module:
+```
+Google maps Clustering
+Text recognition (ML Model)
+Image Classification (ML MOdel)
+Speech Recognition (NLP)
+Data Analytics (Charts)
+```
 
 This project is a starting point for a Flutter application.
 
