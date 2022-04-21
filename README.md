@@ -34,8 +34,7 @@ _____________________________________________________________________
 #  [ML_model_image_classification ](https://github.com/yashvenrakumar/ML_model_image_classification), ml image classifier,
 ______________________________________________________________________
 
-
-<img src="https://miro.medium.com/max/1400/1*V8wNCoPy7t4O5Rn7PdT2YA.jpeg"   />  
+ 
 
 # Data Analytics Charts
 <img src="https://miro.medium.com/max/1440/1*tvDicCX6M9qSKu33QDtHCw.png" width="400" />  <img src="https://miro.medium.com/max/1440/1*etGzutRoA5QWzTDMHknWsQ.png" width="400"/>
